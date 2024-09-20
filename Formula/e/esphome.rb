@@ -21,6 +21,7 @@ class Esphome < Formula
   depends_on "libmagic"
   depends_on "libyaml"
   depends_on "python@3.12"
+  depends_on "python-setuptools"
 
   uses_from_macos "libffi"
 
